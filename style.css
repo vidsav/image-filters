@@ -2,6 +2,8 @@
     padding-top:70px;
 }
 
+/*GRAY*/
+
 .grayscale img{
     filter:grayscale(1);
     -webkit-filter:grayscale(1);
@@ -12,4 +14,18 @@
     filter:grayscale(0);
     -webkit-filter:grayscale(0);
     -moz-filter:grayscale(0);
+}
+
+/*BLUR*/
+
+.blur img{
+    filter:blur(5px);
+    -webkit-filter:blur(5px);
+    -moz-filter:blut(5px);
+}
+
+.blur img:hover{
+    filter:blur(0);
+    -webkit-filter:blur(0);
+    -moz-filter:blut(0);
 }

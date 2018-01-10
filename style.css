@@ -29,3 +29,17 @@
     -webkit-filter:blur(0);
     -moz-filter:blut(0);
 }
+
+/*SEPIA*/
+
+.sepia img{
+    filter:sepia(1);
+    -webkit-filter:sepia(1);
+    -moz-filter:sepia(1);
+}
+
+.sepia img:hover{
+    filter:sepia(0);
+    -webkit-filter:sepia(0);
+    -moz-filter:sepia(0);
+}

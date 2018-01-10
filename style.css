@@ -43,3 +43,27 @@
     -webkit-filter:sepia(0);
     -moz-filter:sepia(0);
 }
+
+/*INVERT*/
+
+.invert img{
+    filter:invert(1);
+    -webkit-filter:invert(1);
+    -moz-filter:invert(1);
+}
+
+.invert img:hover{
+    filter:invert(0);
+    -webkit-filter:invert(0);
+    -moz-filter:invert(0);
+}
+
+/*OPACITY*/
+
+.opacity img{
+    opacity: .3
+}
+
+.opacity img:hover{
+    opacity: 1;
+}

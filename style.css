@@ -81,3 +81,45 @@
     -webkit-filter:saturate(100%);
     -moz-filter:saturate(100%);
 }
+
+/*CONTRAST*/
+
+#contrast img{
+    filter:contrast(.5);
+    -webkit-filter:contrast(.5);
+    -moz-filter:contrast(.5);
+}
+
+#contrast img:hover{
+    filter:contrast(1);
+    -webkit-filter:contrast(1);
+    -moz-filter:contrast(1);
+}
+
+/*BRIGHTNESS*/
+
+#brightness img{
+    filter:brightness(.7);
+    -webkit-filter:brightness(.7);
+    -moz-filter:brightness(.7);
+}
+
+#brightness img:hover{
+    filter:brightness(1);
+    -webkit-filter:brightness(1);
+    -moz-filter:brightness(1);
+}
+
+/*HUE-ROTATE*/
+
+#hue-rotate img{
+    filter:hue-rotate(90deg);
+    -webkit-filter:hue-rotate(90deg);
+    -moz-filter:hue-rotate(90deg);
+}
+
+#hue-rotate img:hover{
+    filter:hue-rotate(20deg);
+    -webkit-filter:hue-rotate(20deg);
+    -moz-filter:hue-rotate(20deg);
+}

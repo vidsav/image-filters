@@ -25,7 +25,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Basic filters
+          Filters
         </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#gray">Gray</a>
@@ -33,18 +33,10 @@
                         <a class="dropdown-item" href="#sepia">Sepia</a>
                         <a class="dropdown-item" href="#invert">Invert</a>
                         <a class="dropdown-item" href="#opacity">Opacity</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Advanced filters
-        </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#saturate">Saturate</a>
-                        <a class="dropdown-item" href="#blur">Blur</a>
-                        <a class="dropdown-item" href="#sepia">Sepia</a>
-                        <a class="dropdown-item" href="#invert">Invert</a>
-                        <a class="dropdown-item" href="#opacity">Opacity</a>
+                        <a class="dropdown-item" href="#contrast">Contrast</a>
+                        <a class="dropdown-item" href="#brightness">Brightness</a>
+                        <a class="dropdown-item" href="#hue-rotate">Hue Rotate</a>
                     </div>
                 </li>
             </ul>
@@ -52,7 +44,7 @@
     </nav>
     <div class="container image-gallery">
         <div class="col-md-12 text-center">
-            <h2>BASIC FILTERS</h2>
+            <h2>IMAGE FILTERS WITH CSS3</h2>
         </div>
         <hr>
         <br>
@@ -86,12 +78,22 @@
         <?php include('gallery.php'); ?>
     </div>
     <div class="container image-gallery" id="saturate">
-        <div class="col-md-12 text-center">
-            <h2>ADVANCED FILTERS</h2>
-        </div>
-        <hr>
-        <br>
         <h4>Saturate filter</h4>
+        <hr>
+        <?php include('gallery.php'); ?>
+    </div>
+    <div class="container image-gallery" id="contrast">
+        <h4>Contrast filter</h4>
+        <hr>
+        <?php include('gallery.php'); ?>
+    </div>
+    <div class="container image-gallery" id="brightness">
+        <h4>Contrast filter</h4>
+        <hr>
+        <?php include('gallery.php'); ?>
+    </div>
+    <div class="container image-gallery" id="hue-rotate">
+        <h4>Contrast filter</h4>
         <hr>
         <?php include('gallery.php'); ?>
     </div>

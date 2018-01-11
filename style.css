@@ -67,3 +67,17 @@
 #opacity img:hover{
     opacity: 1;
 }
+
+/*SATURATE*/
+
+#saturate img{
+    filter:saturate(500%);
+    -webkit-filter:saturate(500%);
+    -moz-filter:saturate(500%);
+}
+
+#saturate img:hover{
+    filter:saturate(100%);
+    -webkit-filter:saturate(100%);
+    -moz-filter:saturate(100%);
+}

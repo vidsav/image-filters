@@ -37,6 +37,7 @@
                         <a class="dropdown-item" href="#contrast">Contrast</a>
                         <a class="dropdown-item" href="#brightness">Brightness</a>
                         <a class="dropdown-item" href="#hue-rotate">Hue Rotate</a>
+                        <a class="dropdown-item" href="#drop-shadow">Drop Shadow</a>
                     </div>
                 </li>
             </ul>
@@ -88,12 +89,17 @@
         <?php include('gallery.php'); ?>
     </div>
     <div class="container image-gallery" id="brightness">
-        <h4>Contrast filter</h4>
+        <h4>Brightness filter</h4>
         <hr>
         <?php include('gallery.php'); ?>
     </div>
     <div class="container image-gallery" id="hue-rotate">
-        <h4>Contrast filter</h4>
+        <h4>Hue rotate filter</h4>
+        <hr>
+        <?php include('gallery.php'); ?>
+    </div>
+    <div class="container image-gallery" id="drop-shadow">
+        <h4>Drop shadow filter</h4>
         <hr>
         <?php include('gallery.php'); ?>
     </div>

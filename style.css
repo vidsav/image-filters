@@ -123,3 +123,17 @@
     -webkit-filter:hue-rotate(20deg);
     -moz-filter:hue-rotate(20deg);
 }
+
+/*DROP SHADOW*/
+
+#drop-shadow img{
+    filter:drop-shadow(15px 15px 10px rgba(0,0,0,1));
+    -webkit-filter:drop-shadow(15px 15px 10px rgba(0,0,0,1));
+    -moz-filter:drop-shadow(15px 15px 10px rgba(0,0,0,1));
+}
+
+#drop-shadow img:hover{
+    filter:drop-shadow(none);
+    -webkit-filter:drop-shadow(none);
+    -moz-filter:drop-shadow(none);
+}
